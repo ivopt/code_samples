@@ -10,6 +10,12 @@ module IvoJesus
 
 end
 
+module ManuelAguiar
+
+  module_attr_accessor [:name, :age, :gender]
+
+end
+
 # This is awesome to build gems with global configurations, modules with defaults, etc... why? because writing something like this is a drag:
 
 # module IvoJesus
